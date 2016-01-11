@@ -61,7 +61,7 @@ import java.nio.charset.IllegalCharsetNameException;
 public class HttpProcessor extends BaseProcessor {
 
     private static final String HTML_META_CHARSET_REGEX =
-        "(<meta\\s*http-equiv\\s*=\\s*(\"|')content-type(\"|')\\s*content\\s*=\\s*(\"|')text/html;\\s*charset\\s*=\\s*(.*?)(\"|')/?>)";
+        "(<meta\\s*http-equiv\\s*=\\s*(\"|')content-type(\"|')\\s*content\\s*=\\s*(\"|')text/html;\\s*charset\\s*=\\s*(.*?)(\"|')\\s*/>)";
 
     private HttpDef httpDef;
     
