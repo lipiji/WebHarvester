@@ -28,7 +28,7 @@
  */
 package org.bounce.text.xml;
 
-import org.webharvest.gui.*;
+import org.webharvester.gui.*;
 
 import java.awt.Color;
 import java.io.IOException;
