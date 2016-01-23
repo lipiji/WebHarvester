@@ -39,6 +39,8 @@ package org.webharvester.runtime.web;
 /*
  * Quick guide for Migration of Commons HttpClient 3.x to HttpComponents HttpClient 4.x:
  * http://debuguide.blogspot.in/2013/01/quick-guide-for-migration-of-commons.html
+ * http://www.cnblogs.com/loveyakamoz/archive/2011/07/21/2113252.html
+ * http://www.myexception.cn/program/848040.html
  */
 
 import org.apache.http.HttpHost;
